@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .bakgrunn {
+    background: url(../images/Bakgrunn.jpeg);
+    background-size: cover;
+  }
+  
+  p {
+    font-size: 20px;
+    max-width: 500px;
+    margin: 40px auto;
+  }
+
+
+/*Navbar*/
+a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav {
+    background: rgb(10,73,228);
+    background: linear-gradient(30deg, rgba(10,73,228,1) 62%, rgba(82,83,221,1) 86%);
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: inline;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    padding: 10px
+  }
+
+
+
+h1 {
+    display: inline;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh
+  }
+  
+  .info {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    margin: 40px auto;
+  }
+
+  .meg {
+    width: 70%;
+    margin: 0px auto;
+  }
+
+  .image {
+    display: grid;
+    place-items: center;
+  }
+
+  footer {
+    height: 100px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 0px !important;
+  }
+
+  .cta-button {
+    background: rgb(10,73,228);
+    background: linear-gradient(30deg, rgba(10,73,228,1) 0%, rgba(82,83,221,1) 65%);
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .cta-button:hover {
+    background: rgb(10,73,228);
+    background: linear-gradient(30deg, rgba(10,73,228,1) 62%, rgba(82,83,221,1) 86%);
+    transition: 10s;
+    
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
