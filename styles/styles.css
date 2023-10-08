@@ -70,7 +70,6 @@ h1 {
 
   footer {
     height: 100px;
-    width: 100%;
     background: black;
     color: white;
     padding: 20px;
@@ -78,22 +77,58 @@ h1 {
   }
 
   .cta-button {
+    color: white;
     background: rgb(10,73,228);
     background: linear-gradient(30deg, rgba(10,73,228,1) 0%, rgba(82,83,221,1) 65%);
-    padding: 10px 50px;
+    padding: 10px 30px;
     border-radius: 10px;
     border: none;
+    margin: 5px;
   }
   
   .cta-button:hover {
+    color: white;
     background: rgb(10,73,228);
     background: linear-gradient(30deg, rgba(10,73,228,1) 62%, rgba(82,83,221,1) 86%);
     transition: 10s;
     
   }
 
+  /*Project site*/
+
   .projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    margin: 10px auto;
+    grid-gap: 5px;
+    max-width: 99%;
+  }
+
+  .project h3 {
+    margin: 5px;
+  }
+
+  .project img {
+    width: 100%;
+  }
+
+  .project-cta {
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .project {
+    text-align: left;
+    background: white;
+    border: 2px solid rgb(10,73,228);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0 gray, -3px -3px 5px 0 silver;
+  }
+
+  .project-text {
+    margin:5px;
+    font-size: 1em;
   }
