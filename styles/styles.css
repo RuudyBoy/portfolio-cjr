@@ -18,6 +18,7 @@ html, body {
 
 
 /*Navbar*/
+
 a {
     text-decoration: none;
     color: white;
@@ -25,22 +26,25 @@ a {
   }
   
   nav {
-    background: rgb(10,73,228);
-    background: linear-gradient(30deg, rgba(10,73,228,1) 62%, rgba(82,83,221,1) 86%);
+    background: rgb(15,28,60);
+    background: linear-gradient(30deg, rgba(15,28,60,1) 42%, rgba(23,23,54,1) 66%);
     text-decoration: none;
-    padding: 20px;
+    display: flex;
   }
   
   nav ul {
-    display: inline;
-    text-align: center;
+    display: flex;
   }
   
   nav li {
-    display: inline;
-    padding: 10px
+    display: inline-flex;
+    padding: 10px;
+    margin: auto;
   }
 
+  .logo-nav {
+    width: 70px;
+  }
 
 button {
     font-family: 'Poppins', sans-serif;
@@ -80,8 +84,9 @@ h3 {
 
   footer {
     height: 100px;
-    background: black;
     color: white;
+    background: rgb(15,28,60);
+    background: linear-gradient(30deg, rgba(15,28,60,1) 42%, rgba(23,23,54,1) 66%);
     padding: 20px;
     margin-bottom: 0px !important;
   }
