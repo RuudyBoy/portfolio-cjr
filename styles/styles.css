@@ -7,12 +7,12 @@ html, body {
   .bakgrunn {
     background: url(../images/Bakgrunn.jpeg);
     background-size: cover;
+   
   }
   
   p {
-    font-size: 20px;
+    font-size: 1em;
     max-width: 500px;
-    margin: 40px auto;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -53,6 +53,7 @@ button {
 h1 {
     display: inline;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
 }
 
 h3 {
@@ -66,11 +67,18 @@ h3 {
   }
   
   .info {
+    color: rgb(15,28,60);;
     flex-direction: column; 
     align-items: center; 
-    text-align: center;
-    margin: 40px auto;
+    margin: auto;
+    max-width: 90%;
   }
+
+  .info .cta-button {
+    padding: 10px 50px;
+
+  }
+
 
   .meg {
     width: 70%;
