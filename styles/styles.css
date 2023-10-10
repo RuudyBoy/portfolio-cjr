@@ -5,14 +5,13 @@ html, body {
   }
   
   .bakgrunn {
-    background: url(../images/Bakgrunn.jpeg);
+    background: url(../images/bakgrunn-svart.jpeg);
     background-size: cover;
   }
   
   p {
     font-size: 20px;
     max-width: 500px;
-    margin: 40px auto;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -46,12 +45,17 @@ a {
     width: 70px;
   }
 
+  
+
 button {
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    display: inline;
+    color: rgb(15,28,60);;
+    text-align: left;
+    font-size: 60px;
+     margin: 0px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -60,20 +64,27 @@ h3 {
 }
 
 .container {
+    margin-left: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-height: 100vh
   }
   
-  .info {
+  .info { 
+    display: inline-block;
     flex-direction: column; 
     align-items: center; 
-    text-align: center;
+    text-align: left;
     margin: 40px auto;
   }
 
+  .logo-home {
+    width: 200px;
+    text-align: left;
+  }
+
   .meg {
-    width: 70%;
+    width: 100%;
     margin: 0px auto;
   }
 
@@ -95,10 +106,9 @@ h3 {
     color: white;
     background: rgb(10,73,228);
     background: linear-gradient(30deg, rgba(10,73,228,1) 0%, rgba(82,83,221,1) 65%);
-    padding: 10px 30px;
-    border-radius: 10px;
+    padding: 10px 60px;
+    border-radius: 5px;
     border: none;
-    margin: 5px;
   }
   
   .cta-button:hover {
@@ -126,24 +136,34 @@ h3 {
 
   .project img {
     width: 100%;
+    object-fit: cover;
   }
 
-  .project-cta {
-    margin-top: 10px;
+  .project button {
+    color: white;
+    background: rgb(10,73,228);
+    background: linear-gradient(30deg, rgba(10,73,228,1) 0%, rgba(82,83,221,1) 65%);
     padding: 10px 30px;
-    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 0px 0px 5px 5px;
     border: none;
   }
 
   .project {
+    display: flex;
+    flex-direction: column;
+    width: 250px; 
+    box-sizing: border-box;
+    overflow: hidden;
     text-align: left;
     background: white;
-    border: 2px solid rgb(10,73,228);
     border-radius: 5px;
     box-shadow: 3px 3px 5px 0 gray, -3px -3px 5px 0 silver;
   }
 
   .project-text {
+    flex: 1;
     margin:5px;
     font-size: 1em;
   }
