@@ -7,10 +7,11 @@ html, body {
   .bakgrunn {
     background: url(../images/bakgrunn-svart.jpeg);
     background-size: cover;
+   
   }
   
   p {
-    font-size: 20px;
+    font-size: 1em;
     max-width: 500px;
     font-family: 'Poppins', sans-serif;
   }
@@ -57,6 +58,7 @@ h1 {
     font-size: 60px;
      margin: 0px;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
 }
 
 h3 {
@@ -70,6 +72,7 @@ h3 {
     min-height: 100vh
   }
   
+<<<<<<< HEAD
   .info { 
     display: inline-block;
     flex-direction: column; 
@@ -83,6 +86,22 @@ h3 {
     text-align: left;
   }
 
+=======
+  .info {
+    color: rgb(15,28,60);;
+    flex-direction: column; 
+    align-items: center; 
+    margin: auto;
+    max-width: 90%;
+  }
+
+  .info .cta-button {
+    padding: 10px 50px;
+
+  }
+
+
+>>>>>>> a2cdf1e6adaa3bca4af275a842a969367ee5526f
   .meg {
     width: 100%;
     margin: 0px auto;
